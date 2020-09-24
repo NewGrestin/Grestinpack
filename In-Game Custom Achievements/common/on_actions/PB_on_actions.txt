@@ -1,0 +1,224 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				add_to_array = { #Burgundian Inheritance
+					PB_achievement_array = 1
+				}
+				add_to_array = { #The Seven Cities of Gold
+					PB_achievement_array = 2
+				}
+				add_to_array = { #Bismarck's Revenge
+					PB_achievement_array = 3
+				}
+				add_to_array = { #House of the Rising Sun
+					PB_achievement_array = 4
+				}
+				add_to_array = { #Change in Management
+					PB_achievement_array = 5
+				}
+				add_to_array = { #Spaghetti Western
+					PB_achievement_array = 6
+				}
+				add_to_array = { #Who Can it Be Now?
+					PB_achievement_array = 7
+				}
+				add_to_array = { #Hi-diddly-ho, Neighbourino!
+					PB_achievement_array = 8
+				}
+				add_to_array = { #Reconquista Redux
+					PB_achievement_array = 9
+				}
+				add_to_array = { #Rosa Luxemburg's Bizarre Adventure
+					PB_achievement_array = 10
+				}
+				add_to_array = { #Revolution is Unbreakable
+					PB_achievement_array = 11
+				}
+				add_to_array = { #Sultans of Swing
+					PB_achievement_array = 12
+				}
+				add_to_array = { #Superpower by 2020
+					PB_achievement_array = 13
+				}
+				add_to_array = { #Endure to Conquer
+					PB_achievement_array = 14
+				}
+				add_to_array = { #One Chin to Rule them All
+					PB_achievement_array = 15
+				}
+				add_to_array = { #Little Tsar
+					PB_achievement_array = 16
+				}
+			}
+		}
+
+		effect = {
+			every_country = {
+				limit = { 
+					OR = {
+						tag = CHI
+						tag = ROC
+					}
+                }
+				set_variable = { var = Guangxi_Qing_Support value = 0 }
+				set_variable = { var = Guangxi_NRA_Support value = 100 }
+				set_variable = { var = Guangxi_Political_Power value = 20 }
+
+				set_variable = { var = Anhui_Qing_Support value = 80 }
+				set_variable = { var = Anhui_NRA_Support value = 10 }
+				set_variable = { var = Anhui_Political_Power value = 60 }
+
+				set_variable = { var = Shangdong_Qing_Support value = 100 }
+				set_variable = { var = Shangdong_NRA_Support value = 0 }
+				set_variable = { var = Shangdong_Political_Power value = 50 }
+
+				set_variable = { var = Taiping_Qing_Support value = 40 }
+				set_variable = { var = Taiping_NRA_Support value = 40 }
+				set_variable = { var = Taiping_Political_Power value = 40 }
+
+				set_variable = { var = Sichuan_Qing_Support value = 10 }
+				set_variable = { var = Sichuan_NRA_Support value = 30 }
+				set_variable = { var = Sichuan_Political_Power value = 20 }
+            }
+		}
+
+		effect = {
+			#Chinese Concessions
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				CHI = {
+					give_resource_rights = { receiver = ENG state = 593 }
+					give_resource_rights = { receiver = ENG state = 592 }
+					give_resource_rights = { receiver = ENG state = 594 }
+					give_resource_rights = { receiver = ENG state = 613 }
+					give_resource_rights = { receiver = GER state = 597 }
+					give_resource_rights = { receiver = RUS state = 717 }
+					give_resource_rights = { receiver = RUS state = 714 }
+					give_resource_rights = { receiver = RUS state = 761 }
+					give_resource_rights = { receiver = RUS state = 321 }
+					give_resource_rights = { receiver = RUS state = 330 }
+					give_resource_rights = { receiver = RUS state = 618 }
+					give_resource_rights = { receiver = RUS state = 617 }
+					give_resource_rights = { receiver = RUS state = 619 }
+				}
+				PER = {
+					give_resource_rights = { receiver = ENG state = 412 }
+					give_resource_rights = { receiver = ENG state = 413 }
+				}
+			}
+		}
+
+		effect = {
+			831 = {
+                add_province_modifier = {
+                    static_modifiers = { Principality_of_Monaco }
+                    province = {
+                        all_provinces = yes
+                    }
+                }
+			}
+		}
+
+		effect = {
+			#British Tech Sharing Setup
+			every_country = {
+				limit = {
+					has_dlc = "Together for Victory"
+					OR = {
+						is_subject_of = ENG
+						is_in_faction_with = ENG
+					}
+                }
+				add_to_tech_sharing_group = ImpConf_research
+            }
+		}
+
+		effect = {
+			#Slovak Rebellion
+			HUN = {
+				declare_war_on = {
+					target = SLO
+					type = annex_everything
+				}
+			}
+		}
+
+		effect = {
+			#Malay Rebellion
+			MAL = {
+				declare_war_on = {
+					target = KAL
+					type = annex_everything
+				}
+			}
+		}
+
+                effect = {
+                        #Russian Stuff
+                        RUS = {
+                        set_variable = {
+			var = Party_Loyalty
+			value = 38.5
+		        }
+                        }
+                }
+
+                effect = {
+			#Great Game 
+			GER = {
+                        set_country_flag = Great_Game
+                        set_variable = {
+			var = rus_i
+			value = 35
+		        }
+                        set_variable = {
+			var = ger_i
+			value = 30
+		        }  
+                        }
+                        RUS = {
+                        set_country_flag = Great_Game
+                        set_variable = {
+			var = rus_i
+			value = 35
+		        }
+                        set_variable = {
+			var = ger_i
+			value = 30
+		        }
+                        }
+                        PRS = {
+                        set_country_flag = Great_Game
+                        set_variable = {
+			var = rus_i
+			value = 35
+		        }
+                        set_variable = {
+			var = ger_i
+			value = 30
+		        }
+                        }
+		}
+	}
+
+	on_nuke_drop = {
+
+		effect = {
+			FROM = {
+				set_state_flag = state_nuked
+				add_province_modifier = {
+					static_modifiers = { nuclear_attack }
+					province = {
+						all_provinces = yes
+					}			
+				}
+
+				add_manpower = -10000
+			}
+		}
+	}
+}

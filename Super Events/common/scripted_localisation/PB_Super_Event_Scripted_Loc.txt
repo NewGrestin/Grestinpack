@@ -1,0 +1,273 @@
+defined_text = { #SUPER EVENT TITLES
+    name = get_super_event_title
+    
+    text = { 
+        trigger = {
+            has_global_flag = ENG_George_V_Dead_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVNT_George_V_Death"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = TUR_Turkish_Civil_War_Event_Visible
+        }
+        localization_key = "GFX_SPEVNT_Turkish_Civil_War"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = BAL_Great_Balkan_War_Event_Visible
+        }
+        localization_key = "GFX_SPEVNT_Great_Balkan_War"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = POL_Polish_Uprising_visible
+        }
+        localization_key = "GFX_SPEVNT_Polish_Uprising"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = RAJ_Anglo_Indian_War_visible
+        }
+        localization_key = "SPEVNT_Anglo_Indian_War"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = CHI_Unified_Auth_Beiyang
+        }
+        localization_key = "SPEVNT_China_Unified_Auth_Beiyang"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = CHI_Wuchang_Revolution_visible
+        }
+        localization_key = "SPEVNT_Wuchang_Revolution"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = ENG_Irish_Secession_Crisis_Visible
+        }
+        localization_key = "SPEVNT_Irish_Secession_Crisis"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = MEX_Mexican_Revolution_Visible
+        }
+        localization_key = "SPEVNT_Mexican_Revolution"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = First_Atomic_Bombing_visible
+        }
+        localization_key = "SPEVNT_Atom_Bomb"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Global_Second_Great_War_visible
+        }
+        localization_key = "SPEVNT_Second_Great_War"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Global_German_Prussian_Union
+        }
+        localization_key = "SPEVNT_German_Prussian_Union"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Second_Great_War_LON_Victory_visible
+        }
+        localization_key = "SPEVNT_Second_Great_War_LON_Victory"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Second_Great_War_RP_Victory_visible
+        }
+        localization_key = "SPEVNT_Second_Great_War_RP_Victory"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Russian_Civil_War_Visible
+        }
+        localization_key = "SPEVNT_Russian_Civil_War"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Anglo_American_War_visible
+        }
+        localization_key = "SPEVNT_Anglo_American_War"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = American_Revolution_visible
+        }
+        localization_key = "SPEVNT_American_Revolution"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Mexican_Unification_visible
+        }
+        localization_key = "SPEVNT_Mexican_Unification"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Global_Brazil_Unification_Visible
+        }
+        localization_key = "SPEVNT_Brazil_Unification"
+    }
+}
+
+defined_text = { #SUPER EVENT QUOTES
+    name = get_superevent_quote
+    
+    text = { 
+        trigger = {
+            has_global_flag = ENG_George_V_Dead_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVNT_George_V_Death_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = TUR_Turkish_Civil_War_Event_Visible
+        }
+        localization_key = "GFX_SPEVNT_Turkish_Civil_War_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = BAL_Great_Balkan_War_Event_Visible
+        }
+        localization_key = "GFX_SPEVNT_Great_Balkan_War_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = POL_Polish_Uprising_visible
+        }
+        localization_key = "GFX_SPEVNT_Polish_Uprising_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = RAJ_Anglo_Indian_War_visible
+        }
+        localization_key = "SPEVNT_Anglo_Indian_War_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = CHI_Unified_Auth_Beiyang
+        }
+        localization_key = "SPEVNT_China_Unified_Auth_Beiyang_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = CHI_Wuchang_Revolution_visible
+        }
+        localization_key = "SPEVNT_Wuchang_Revolution_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = ENG_Irish_Secession_Crisis_Visible
+        }
+        localization_key = "SPEVNT_Irish_Secession_Crisis_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = MEX_Mexican_Revolution_Visible
+        }
+        localization_key = "SPEVNT_Mexican_Revolution_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = First_Atomic_Bombing_visible
+        }
+        localization_key = "SPEVNT_Atom_Bomb_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Global_Second_Great_War_visible
+        }
+        localization_key = "SPEVNT_Second_Great_War_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Global_German_Prussian_Union
+        }
+        localization_key = "SPEVNT_German_Prussian_Union_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Second_Great_War_LON_Victory_visible
+        }
+        localization_key = "SPEVNT_Second_Great_War_LON_Victory_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Second_Great_War_RP_Victory_visible
+        }
+        localization_key = "SPEVNT_Second_Great_War_RP_Victory_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Russian_Civil_War_Visible
+        }
+        localization_key = "SPEVNT_Russian_Civil_War_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Anglo_American_War_visible
+        }
+        localization_key = "SPEVNT_Anglo_American_War_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = American_Revolution_visible
+        }
+        localization_key = "SPEVNT_American_Revolution_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Mexican_Unification_visible
+        }
+        localization_key = "SPEVNT_Mexican_Unification_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Global_Brazil_Unification_Visible
+        }
+        localization_key = "SPEVNT_Brazil_Unification_TEXT"
+    }
+}
